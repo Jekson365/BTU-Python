@@ -13,9 +13,10 @@ class Fruit:
 
 s1 = Fruit(25,"Apple")
 s2 = Fruit(15,"Banana")
+s3 = Fruit(45,"Banana")
 
 print(s1 == s2)
-print(s1 + s2)
+print(s1.weight + s2.weight + s3.weight)
 
 s3 = Fruit(20,"banana")
 s4 = Fruit(23,"banana")
